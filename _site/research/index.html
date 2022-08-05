@@ -9,8 +9,8 @@
   <title>Reserach - Idriss Riouak</title>
   <meta name="description" content="Academic webpage of Idriss Riouak">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/research/">
-  <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/favicon.ico">
+  <link rel="canonical" href="/research/">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
@@ -18,6 +18,37 @@
   <link rel="preconnect" href="https://i.vimeocdn.com">
   <link rel="preconnect" href="https://f.vimeocdn.com">
 
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
 
 
 
@@ -33,8 +64,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
 <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
-    <a class="navbar-brand" href="http://localhost:4000/">
-     <img src="http://localhost:4000/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
       Idriss Riouak
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,27 +76,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="navbar-nav mr-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
-              <a class="nav-link" href="http://localhost:4000/">Home</a>
+              <a class="nav-link" href="/">Home</a>
           </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/about">About</a>
+            <a class="nav-link" href="/about">About</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/publications">Publications</a>
+            <a class="nav-link" href="/publications">Publications</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/talks">Talks</a>
+            <a class="nav-link" href="/talks">Talks</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/research">Research</a>
+            <a class="nav-link" href="/research">Research</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/teaching">Teaching</a>
+            <a class="nav-link" href="/teaching">Teaching</a>
            </li> 
           
         </ul>
@@ -118,24 +149,10 @@ iframe {
   <div class="row align-items-end">
     <div class="col-md-9 col-sm-12">
 
-      <h2 id="jfeature">JFeature</h2>
-
-      <p>We started analysing some Java projects taken from the DaCapo corpus to evaluate the precision
-of IntraJ on Java 8 projects. 
-After a while, I realised there are no Java 8 projects in the DaCapo Benchmark Suite. So, I started 
-looking at more corpora (yes, not corpuses), and we realised that the most used corpora in Static Analysis don’t include Java 8 projects at all. I needed to find Java 8 projects that heavily use 
-all Java 8 features, e.g., Lambda Expressions, Intersection Cast, Default, Method and Constructor references.</p>
-
-      <p>I started looking at the literature, and I found nothing. I found no paper nor source-level tool able to extract this kind of information. I thought: “Good opportunity to do something new”. I pressed pause on the IntraJ project and I started with JFeature.</p>
-
-      <p align="center">
-  <img width="700" src="http://localhost:4000/images/conferences/jfeature/main_results.png" />
-</p>
-
       <h2 id="intraj">IntraJ</h2>
 
       <p align="center">
-  <img width="300" src="http://localhost:4000/images/conferences/intraj/logo.png" />
+  <img width="300" src="/images/conferences/intraj/logo.png" />
 </p>
 
       <hr />
@@ -157,11 +174,11 @@ You can run IntraJ on other Java codebases (in Java-4, Java-5, Java-6, and Java-
 
     </div>
     <div class="col-md-3 col-sm-12" style="background-color:transparent">
-      <p><a href="https://github.com/lu-cs-sde/IntraJ" target="_blank"><img src="http://localhost:4000/images/github-light.png" /></a></p>
+      <p><a href="https://github.com/lu-cs-sde/IntraJ" target="_blank"><img src="/images/github-light.png" /></a></p>
       <p float="center" align="center">
 <a href="https://icsme2021.github.io/cfp/AEandROSETrack.html">
-  <img width="70" src="http://localhost:4000/images/conferences/intraj/Open_Research.png" /> </a>
-  <a href="https://icsme2021.github.io/cfp/AEandROSETrack.html"><img width="70" src="http://localhost:4000/images/conferences/intraj/Research_Objects.png" /> </a>
+  <img width="70" src="/images/conferences/intraj/Open_Research.png" /> </a>
+  <a href="https://icsme2021.github.io/cfp/AEandROSETrack.html"><img width="70" src="/images/conferences/intraj/Research_Objects.png" /> </a>
 </p>
     </div>
   </div>
@@ -173,10 +190,10 @@ You can run IntraJ on other Java codebases (in Java-4, Java-5, Java-6, and Java-
 
       <h2 id="will-it-blend-composable-source-code-analysis">Will it Blend? Composable Source Code Analysis</h2>
 
-      <p><a href="http://localhost:4000/papers/ProjectCourse.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+      <p><a href="/papers/ProjectCourse.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
 <a href="https://www.youtube.com/watch?v=EZq9lr4uFLc"> <button class="btn btn-warning btm-sm" style="background-color: seagreen; border-color: seagreen;"> YouTube</button> </a></p>
 
-      <p><img class="imgfit" src="http://localhost:4000/images/projects/wb.png" /></p>
+      <p><img class="imgfit" src="/images/projects/wb.png" /></p>
 
       <hr />
       <p>In collaboration with: @Khashayar Etemadi, @Deepika Tiwari, @Mohammad Reza, @Momina Rizwan and @Matthías Páll Gissurarson</p>
@@ -214,7 +231,7 @@ and peace in our time.</p>
 
     </div>
     <div class="col-md-3 col-sm-12" style="background-color:transparent">
-      <p><a href="https://github.com/IdrissRio/Composable-Software-Tools" target="_blank"><img src="http://localhost:4000/images/github-light.png" /></a></p>
+      <p><a href="https://github.com/IdrissRio/Composable-Software-Tools" target="_blank"><img src="/images/github-light.png" /></a></p>
     </div>
 
   </div>
