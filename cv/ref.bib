@@ -13,9 +13,31 @@
   doi       = {10.1109/SCAM52516.2021.00009},
   biburl    = {https://dblp.org/rec/conf/scam/RiouakRHF21.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
+<<<<<<< HEAD
   abstract =  {This paper presents INTRACFG, a declarative and language-independent framework for constructing precise intraprocedural control-flow graphs (CFGs) based on the reference attribute grammar system JastAdd. Unlike most other frameworks, which build CFGs on an Intermediate Representation level, e.g., bytecode, our approach superimposes the CFGs on the Abstract Syntax Tree, enabling accurate client analysis. Moreover, INTRACFG overcomes expressivity limitations of an earlier RAG-based framework, allowing the construction of AST-Unrestricted CFGs: CFGs whose shape is not confined to the AST structure. We evaluate the expressivity of INTRACFG with INTRAJ, an application of INTRACFG to Java 7, by comparing two data flow analyses built on top of INTRAJ against tools from academia and from the industry. The results demonstrate that INTRAJ is effective at building precise and efficient CFGs and enables analyses with competitive performance.},
   youtube = {https://www.youtube.com/watch?v=H5MJefq0fkw},
   file = {IntraJ.pdf},
+=======
+  abstract  = {This paper presents INTRACFG, a declarative and language-independent framework for constructing precise intraprocedural control-flow graphs (CFGs) based on the reference attribute grammar system JastAdd. Unlike most other frameworks, which build CFGs on an Intermediate Representation level, e.g., bytecode, our approach superimposes the CFGs on the Abstract Syntax Tree, enabling accurate client analysis. Moreover, INTRACFG overcomes expressivity limitations of an earlier RAG-based framework, allowing the construction of AST-Unrestricted CFGs: CFGs whose shape is not confined to the AST structure. We evaluate the expressivity of INTRACFG with INTRAJ, an application of INTRACFG to Java 7, by comparing two data flow analyses built on top of INTRAJ against tools from academia and from the industry. The results demonstrate that INTRAJ is effective at building precise and efficient CFGs and enables analyses with competitive performance.},
+  youtube   = {https://www.youtube.com/watch?v=H5MJefq0fkw},
+  file      = {IntraJ.pdf}
+}
+
+
+@inproceedings{RiouakCorpus22,
+  author    = {Idriss Riouak and
+               G{\"{o}}rel Hedin  and
+               Christoph Reichenbach and
+               Niklas Fors},
+  title     = {JFeature: Know Your Corpus},
+  booktitle = {22st {IEEE} International Working Conference on Source Code Analysis
+               and Manipulation, {SCAM} 2021, Luxembourg, September 27-28, 2021},
+  publisher = {{IEEE}},
+  year      = {2022},
+  url       = {https://github.com/lu-cs-sde/JFeature/blob/main/preprint.pdf},
+  abstract  = {Software corpora are crucial for evaluating research artifacts and ensuring repeatability of outcomes. Corpora such as DaCapo and Defects4J provide a collection of real-world open-source projects for evaluating the robustness and performance of software tools like static analysers. However, what do we know about these corpora? What do we know about their composition? Are they really suited for our particular problem? We developed JFeature, an extensible static analysis tool that extracts syntactic and semantic features from Java programs, to assist developers in answering these questions. We demonstrate the potential of JFeature by applying it to four widely-used corpora in the program analysis area, and we suggest other applications, including longitudinal studies of individual Java projects and the creation of new corpora.},
+  file      = {JFeature.pdf}
+>>>>>>> c588fb0 (Updating personal website)
 }
 
 @inproceedings{FabianoRDP19,
@@ -37,8 +59,13 @@
   timestamp = {Wed, 12 Feb 2020 16:44:22 +0100},
   biburl    = {https://dblp.org/rec/conf/cilc/FabianoRDP19.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
+<<<<<<< HEAD
   file = {nonwellfoundedsets.pdf},
   abstract = {This work focuses},
+=======
+  file      = {nonwellfoundedsets.pdf},
+  abstract  = {This work focuses}
+>>>>>>> c588fb0 (Updating personal website)
 }
 
 @inproceedings{FrehseAABBCGGMM19,
@@ -72,7 +99,7 @@
   timestamp = {Thu, 14 Oct 2021 10:03:59 +0200},
   biburl    = {https://dblp.org/rec/conf/cpsweek/FrehseAABBCGGMM19.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
-  file = {arch.pdf},
+  file = {arch.pdf}
 }
 
 @incollection{invited_1,
@@ -93,5 +120,25 @@
   url       = {https://icsme2021.github.io/cfp/AEandROSETrack.html},
   title     = {IntraJ - Artifact reusability},
   youtube   = {https://www.youtube.com/watch?v=0jX7doHeUp8}
+}
+
+@incollection{invited_3,
+  author    = {Idriss Riouak},
+  note      = {PRIDE Workshop - Berlin},
+  publisher = {ECOOP},
+  year      = {2022},
+  url       = {https://2022.ecoop.org/details/pride-2022/6/Source-Level-Dataflow-Based-Fixes-Experiences-From-Using-Intraj-and-Magpiebridge},
+  title     = {Source-Level Dataflow-Based Fixes: Experiences From Using Intraj and Magpiebridge},
+  file      = {pride.pdf}
+}
+
+@incollection{invited_4,
+  author    = {Idriss Riouak},
+  note      = {2022 IEEE CISOSE - California},
+  publisher = {IEEE},
+  year      = {2022},
+  url       = {},
+  title     = {Presenting IntraJ Poster ad CISOSE, Google and Apple},
+  file      = {poster.pdf}
 }
 

@@ -1,0 +1,9 @@
+- name: Charlie Mrad
+  location: Lund University               
+  degree: Project Course supervisor, <a href="https://fileadmin.cs.lth.se/cs/Education/edan70/CompilerProjects/2021/Reports/mrad.pdf"> "A Framework For Efficient Code Fixes Using Reference Attributed Grammars"</a>
+  year: December 2021
+
+- name: Oskar Kari
+  location: Lund University               
+  degree: Project Course supervisor, <a href="https://fileadmin.cs.lth.se/cs/Education/edan70/CompilerProjects/2020/Reports/Kari.pdf"> "Flow Based Bug Detection"</a>
+  year: December 2020

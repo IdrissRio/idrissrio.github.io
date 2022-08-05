@@ -1,0 +1,326 @@
+I"><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.jumbotron{
+    padding:3%;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+</style>
+
+<div class="jumbotron">
+  <h3 id="talks">Talks</h3>
+  <ol class="bibliography" reversed="reversed"><li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    /* height:20px: */
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="invited_3">Riouak, I. (2022). <i>Source-Level Dataflow-Based Fixes: Experiences From Using Intraj and Magpiebridge</i>. ECOOP; PRIDE Workshop (Berlin) . https://2022.ecoop.org/details/pride-2022/6/Source-Level-Dataflow-Based-Fixes-Experiences-From-Using-Intraj-and-Magpiebridge</span></div>
+
+
+
+
+
+<a href="http://localhost:4000/papers/pride.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+
+
+
+
+
+
+<div id="ainvited_3" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{invited_3,
+  author = {Riouak, Idriss},
+  note = {PRIDE Workshop (Berlin) },
+  publisher = {ECOOP},
+  year = {2022},
+  url = {https://2022.ecoop.org/details/pride-2022/6/Source-Level-Dataflow-Based-Fixes-Experiences-From-Using-Intraj-and-Magpiebridge},
+  title = {Source-Level Dataflow-Based Fixes: Experiences From Using Intraj and Magpiebridge},
+  file = {pride.pdf}
+}
+</pre>
+</div>
+
+
+<div id="binvited_3" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexinvited_3(parameter) {
+    var x= document.getElementById('ainvited_3');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractinvited_3(parameter) {
+    var x= document.getElementById('binvited_3');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    /* height:20px: */
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="invited_4">Riouak, I. (2022). <i>Presenting IntraJ Poster</i>. IEEE; 2022 IEEE CISOSE - California.</span></div>
+
+
+
+
+
+<a href="http://localhost:4000/papers/poster.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+
+
+
+
+
+
+<div id="ainvited_4" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{invited_4,
+  author = {Riouak, Idriss},
+  note = {2022 IEEE CISOSE - California},
+  publisher = {IEEE},
+  year = {2022},
+  url = {},
+  title = {Presenting IntraJ Poster},
+  file = {poster.pdf}
+}
+</pre>
+</div>
+
+
+<div id="binvited_4" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexinvited_4(parameter) {
+    var x= document.getElementById('ainvited_4');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractinvited_4(parameter) {
+    var x= document.getElementById('binvited_4');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    /* height:20px: */
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="invited_1"><i>A Precise Framework for Source-Level Control-Flow Analysis</i>. (2021). IEEE; SCAM - International Working Conference on Source Code Analysis &amp; Manipulation. https://icsme2021.github.io/cfp/AEandROSETrack.html</span></div>
+
+
+
+
+
+
+
+<a href="https://www.youtube.com/watch?v=H5MJefq0fkw"> <button class="btn btn-warning btm-sm" style="background-color: seagreen; border-color: seagreen;"> YouTube</button> </a>
+
+
+
+
+
+
+
+
+
+<div id="ainvited_1" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{invited_1,
+  author = {},
+  note = {SCAM - International Working Conference on Source Code Analysis &amp; Manipulation},
+  publisher = {IEEE},
+  year = {2021},
+  url = {https://icsme2021.github.io/cfp/AEandROSETrack.html},
+  title = {A Precise Framework for Source-Level Control-Flow Analysis},
+  youtube = {https://www.youtube.com/watch?v=H5MJefq0fkw}
+}
+</pre>
+</div>
+
+
+<div id="binvited_1" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexinvited_1(parameter) {
+    var x= document.getElementById('ainvited_1');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractinvited_1(parameter) {
+    var x= document.getElementById('binvited_1');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    /* height:20px: */
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="invited_2"><i>IntraJ - Artifact reusability</i>. (2021). IEEE; ROSE - Recognizing and Rewarding Open Science in SE. https://icsme2021.github.io/cfp/AEandROSETrack.html</span></div>
+
+
+
+
+
+
+
+<a href="https://www.youtube.com/watch?v=0jX7doHeUp8"> <button class="btn btn-warning btm-sm" style="background-color: seagreen; border-color: seagreen;"> YouTube</button> </a>
+
+
+
+
+
+
+
+
+
+<div id="ainvited_2" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{invited_2,
+  author = {},
+  note = {ROSE - Recognizing and Rewarding Open Science in SE},
+  publisher = {IEEE},
+  year = {2021},
+  url = {https://icsme2021.github.io/cfp/AEandROSETrack.html},
+  title = {IntraJ - Artifact reusability},
+  youtube = {https://www.youtube.com/watch?v=0jX7doHeUp8}
+}
+</pre>
+</div>
+
+
+<div id="binvited_2" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexinvited_2(parameter) {
+    var x= document.getElementById('ainvited_2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractinvited_2(parameter) {
+    var x= document.getElementById('binvited_2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li></ol>
+</div>
+
+:ET
