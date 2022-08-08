@@ -66,7 +66,12 @@ I started looking at the literature, and I found nothing. I found no paper nor s
 
 
 
+</div></div></div>
 
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
 
 ## IntraJ 
 

@@ -1,4 +1,4 @@
-I"ô4<style>
+I"ö4<style>
 .jumbotron{
     padding:3%;
     padding-bottom:10px;
@@ -19,6 +19,7 @@
 </div> -->
 
 <div class="jumbotron">
+
   <h3 id="refereed-conference-proceedings">Refereed conference proceedings</h3>
   <ol class="bibliography" reversed="reversed"><li><style>
 .btn{
@@ -380,6 +381,7 @@ function toggleAbstractFrehseAABBCGGMM19(parameter) {
 }
 </script>
 </li></ol>
+
 </div>
 
 <!-- <div class="jumbotron">

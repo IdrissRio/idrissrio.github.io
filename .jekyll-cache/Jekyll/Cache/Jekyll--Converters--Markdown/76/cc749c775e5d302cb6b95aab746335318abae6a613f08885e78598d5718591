@@ -1,83 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Talks &amp; Posters - Idriss Riouak</title>
-  <meta name="description" content="Academic webpage of Idriss Riouak">
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/talks/">
-  <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/favicon.ico">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
-  <link rel="preconnect" href="https://player.vimeo.com">
-  <link rel="preconnect" href="https://i.vimeocdn.com">
-  <link rel="preconnect" href="https://f.vimeocdn.com">
-
-
-
-
-</head>
-
-
-  <body>
-
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
-    <a class="navbar-brand" href="http://localhost:4000/">
-     <img src="http://localhost:4000/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
-      Idriss Riouak
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor02">
-        <ul class="navbar-nav mr-auto">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" href="http://localhost:4000/">Home</a>
-          </li> 
-          
-           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/about">About</a>
-           </li> 
-          
-           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/publications">Publications</a>
-           </li> 
-          
-           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/talks">Talks</a>
-           </li> 
-          
-           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/research">Research</a>
-           </li> 
-          
-           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/teaching">Teaching</a>
-           </li> 
-          
-        </ul>
-  </div>
-</nav>
-
-
-
-    <div class="container-fluid">
-      <div class="row">
-        <div id="gridid" class="col-sm-12 col-xs-12">
-  <style>
+I"�<style>
 .btn{
     margin-bottom:5px;
     padding-top:1px;
@@ -127,6 +48,8 @@ pre{
 
 
 
+&lt;a href=""test""&gt; <button class="btn btn-warning btm-sm" style="background-color: seagreen; border-color: seagreen;"> YouTube</button> &lt;/a&gt;
+
 
 
 
@@ -143,7 +66,8 @@ pre{
   year = {2022},
   url = {https://2022.ecoop.org/details/pride-2022/6/Source-Level-Dataflow-Based-Fixes-Experiences-From-Using-Intraj-and-Magpiebridge},
   title = {Source-Level Dataflow-Based Fixes: Experiences From Using Intraj and Magpiebridge},
-  file = {pride.pdf}
+  file = {pride.pdf},
+  youtube = {"test"}
 }
 </pre>
 </div>
@@ -203,6 +127,8 @@ pre{
 
 
 
+&lt;a href=""test""&gt; <button class="btn btn-warning btm-sm" style="background-color: seagreen; border-color: seagreen;"> YouTube</button> &lt;/a&gt;
+
 
 
 
@@ -219,7 +145,8 @@ pre{
   year = {2022},
   url = {},
   title = {Presenting IntraJ Poster ad CISOSE, Google and Apple},
-  file = {poster.pdf}
+  file = {poster.pdf},
+  youtube = {"test"}
 }
 </pre>
 </div>
@@ -402,48 +329,4 @@ function toggleAbstractinvited_2(parameter) {
 </li></ol>
 </div>
 
-
-</div>
-
-      </div>
-    </div>
-
-    <br/>
-<section id="footer">
-<div class="container-footer">
-  <div class="panel-footer">
-	  <div class="row">
-		<div class="col-sm-4">
-		    <h5>About</h5>	
-            <p>Idriss Riouak<br/> PhD Candidate<br/> <a href="https://cs.lth.se" target="_blank">Computer Science Department</a><br/> Lund University
-</p>
-		</div>
-
-		<div class="col-sm-4">
-		    <h5>Contact</h5>	
-            <p><a href="mailto:idriss.riouak@cs.lth.se" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Idriss via email</a> <br/> <a href="https://github.com/IdrissRio><i class="fa fa-github fa-1x"></i> GitHub</a>
-</p>
-		</div>
-
-		<div class="col-sm-4">
-		    <h5>Coordinates</h5>	
-            <p><a href="https://www.ehuset.lth.se/" target="_blank">E-House</a><br/> Lunds Tekniska Högskola <br/> Ole Römers väg 3, <br/> 223 63 Lund
-</p>
-		</div>
-	  </div>
-
-      <center><p>&copy 2022 Idriss Riouak </p></center>
-	</div>
-  </div>
-</div>
-
-<script src="/assets/javascript/bootstrap/jquery.min.js"></script>
-<!-- <script src="/assets/javascript/popper/dist/umd/popper.min.js"></script> -->
-<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
-<!-- <script src="/assets/javascript/shb.js"></script> -->
-
-
-
-  </body>
-
-</html>
+:ET
