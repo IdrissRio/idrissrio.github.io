@@ -9,3 +9,5 @@ Gemfile
 Gemfile.lock
 switch_theme.sh
 update_bootstrap.sh
+DS_Store
+Rakefile
