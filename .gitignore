@@ -7,5 +7,5 @@ _sass
 _config.yml
 Gemfile
 Gemfile.lock
-swich_theme.swich_theme
+switch_theme.sh
 update_bootstrap.sh
