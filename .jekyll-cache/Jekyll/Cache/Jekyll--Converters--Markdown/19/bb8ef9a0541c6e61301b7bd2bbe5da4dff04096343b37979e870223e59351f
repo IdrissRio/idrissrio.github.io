@@ -1,0 +1,49 @@
+I"ß<h2 id="about">About</h2>
+
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-sm-4">
+      <p><img src="http://localhost:4000/images/teampic/idriss_headshot.jpg" width="100%" style="max-width:250px" /></p>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+      <h3>Idriss Riouak</h3>
+      <h4><i>WASP PhD Student, Lund University</i></h4>
+      <p><a href="mailto:idriss.riouak@cs.lth.se" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> 
+   <a href="https://scholar.google.se/citations?user=K0Mf5LYAAAAJ&amp;hl=en&amp;oi=ao" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> 
+   <a href="https://github.com/idrissrio" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> 
+   <a href="https://www.researchgate.net/profile/Idriss-Riouak" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a></p>
+
+      <ul style="overflow: hidden">
+  
+  
+  
+  <li> (2019 &#8211; ) WASP PhD Student, <a href="https://www.lunduniversity.lu.se/"> Lund University </a> </li>
+  <li> (2016 &#8211; 2019) M.S. Degree in Computer Science, <a href="https://uniud.it">UniUD</a> </li>
+  <li> (2013 &#8211; 2016) B.S. Computer Science, <a href="https://unipr.it"> UniPR </a> </li>
+  
+  
+  
+  
+  </ul>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <h3 id="students-and-mentoring">Students and mentoring</h3>
+  <ul>
+
+ <li> Charlie Mrad, Lund University (Project Course supervisor, <a href="https://fileadmin.cs.lth.se/cs/Education/edan70/CompilerProjects/2021/Reports/mrad.pdf"> "A Framework For Efficient Code Fixes Using Reference Attributed Grammars"</a>, December 2021) </li>
+
+ <li> Oskar Kari, Lund University (Project Course supervisor, <a href="https://fileadmin.cs.lth.se/cs/Education/edan70/CompilerProjects/2020/Reports/Kari.pdf"> "Flow Based Bug Detection"</a>, December 2020) </li>
+
+</ul>
+</div>
+
+<!-- <div class="jumbotron">
+  <h4>Sponsors</h4>
+  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
+ 
+  </div>
+</div> -->
+:ET
