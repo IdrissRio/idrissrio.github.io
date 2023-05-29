@@ -1,0 +1,179 @@
+@inproceedings{RiouakRHF21,
+  author    = {Idriss Riouak and
+               Christoph Reichenbach and
+               G{\"{o}}rel Hedin and
+               Niklas Fors},
+  title     = {A Precise Framework for Source-Level Control-Flow Analysis},
+  booktitle = {21st {IEEE} International Working Conference on Source Code Analysis
+               and Manipulation, {SCAM} 2021, Luxembourg, September 27-28, 2021},
+  pages     = {1--11},
+  publisher = {{IEEE}},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/SCAM52516.2021.00009},
+  doi       = {10.1109/SCAM52516.2021.00009},
+  biburl    = {https://dblp.org/rec/conf/scam/RiouakRHF21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract  = {This paper presents INTRACFG, a declarative and language-independent framework for constructing precise intraprocedural control-flow graphs (CFGs) based on the reference attribute grammar system JastAdd. Unlike most other frameworks, which build CFGs on an Intermediate Representation level, e.g., bytecode, our approach superimposes the CFGs on the Abstract Syntax Tree, enabling accurate client analysis. Moreover, INTRACFG overcomes expressivity limitations of an earlier RAG-based framework, allowing the construction of AST-Unrestricted CFGs: CFGs whose shape is not confined to the AST structure. We evaluate the expressivity of INTRACFG with INTRAJ, an application of INTRACFG to Java 7, by comparing two data flow analyses built on top of INTRAJ against tools from academia and from the industry. The results demonstrate that INTRAJ is effective at building precise and efficient CFGs and enables analyses with competitive performance.},
+  youtube   = {https://www.youtube.com/watch?v=H5MJefq0fkw},
+  file      = {IntraJ.pdf},
+  slide     = {IntraJSlides.pdf},
+  poster    = {IntraJPoster.pdf}
+}
+
+
+@inproceedings{RiouakCorpus22,
+  author    = {Idriss Riouak and
+               G{\"{o}}rel Hedin  and
+               Christoph Reichenbach and
+               Niklas Fors},
+  title     = {JFeature: Know Your Corpus},
+  booktitle = {22st {IEEE} International Working Conference on Source Code Analysis
+               and Manipulation, {SCAM} 2022, Cyprus October 3-4, 2022},
+  publisher = {{IEEE}},
+  year      = {2022},
+  url       = {https://github.com/lu-cs-sde/JFeature/blob/main/preprint.pdf},
+  abstract  = {Software corpora are crucial for evaluating research artifacts and ensuring repeatability of outcomes. Corpora such as DaCapo and Defects4J provide a collection of real-world open-source projects for evaluating the robustness and performance of software tools like static analysers. However, what do we know about these corpora? What do we know about their composition? Are they really suited for our particular problem? We developed JFeature, an extensible static analysis tool that extracts syntactic and semantic features from Java programs, to assist developers in answering these questions. We demonstrate the potential of JFeature by applying it to four widely-used corpora in the program analysis area, and we suggest other applications, including longitudinal studies of individual Java projects and the creation of new corpora.},
+  file      = {JFeature.pdf},
+  slide     = {JFeatureSlides.pdf}
+}
+
+@inproceedings{FabianoRDP19,
+  author    = {Francesco Fabiano and
+               Idriss Riouak and
+               Agostino Dovier and
+               Enrico Pontelli},
+  editor    = {Alberto Casagrande and
+               Eugenio G. Omodeo},
+  title     = {Non-Well-Founded Set Based Multi-Agent Epistemic Action Language},
+  booktitle = {Proceedings of the 34th Italian Conference on Computational Logic,
+               Trieste, Italy, June 19-21, 2019},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2396},
+  pages     = {242--259},
+  publisher = {CEUR-WS.org},
+  year      = {2019},
+  url       = {http://ceur-ws.org/Vol-2396/paper38.pdf},
+  timestamp = {Wed, 12 Feb 2020 16:44:22 +0100},
+  biburl    = {https://dblp.org/rec/conf/cilc/FabianoRDP19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  file      = {nonwellfoundedsets.pdf},
+  abstract  = {This work focuses}
+}
+
+@inproceedings{FrehseAABBCGGMM19,
+  author    = {Goran Frehse and
+               Alessandro Abate and
+               Dieky Adzkiya and
+               Anna Becchi and
+               Lei Bu and
+               Alessandro Cimatti and
+               Mirco Giacobbe and
+               Alberto Griggio and
+               Sergio Mover and
+               Muhammad Syifa'ul Mufid and
+               Idriss Riouak and
+               Stefano Tonetta and
+               Enea Zaffanella},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP19} Category Report: Hybrid Systems with Piecewise Constant
+               Dynamics},
+  booktitle = {{ARCH19.} 6th International Workshop on Applied Verification of Continuous
+               and Hybrid Systemsi, part of CPS-IoT Week 2019, Montreal, QC, Canada,
+               April 15, 2019},
+  series    = {EPiC Series in Computing},
+  volume    = {61},
+  pages     = {1--13},
+  publisher = {EasyChair},
+  year      = {2019},
+  url       = {https://doi.org/10.29007/rjwn},
+  doi       = {10.29007/rjwn},
+  timestamp = {Thu, 14 Oct 2021 10:03:59 +0200},
+  biburl    = {https://dblp.org/rec/conf/cpsweek/FrehseAABBCGGMM19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  file = {arch.pdf}
+}
+
+@thesis{licensiate,
+title = "Declarative Specification of Intraprocedural Control-flow and Dataflow Analysis",
+abstract = "Static program analysis plays a crucial role in ensuring the quality and security of software applications by detecting and fixing bugs, and potential security vulnerabilities in the code. The use of declarative paradigms in dataflow analysis as part of static program analysis has become increasingly popular in recent years. This is due to its enhanced expressivity and modularity, allowing for a higher-level programming approach, resulting in easy and efficient development.The aim of this thesis is to explore the design and implementation of control-flow and dataflow analyses using the declarative Reference Attribute Grammars formalism. Specifically, we focus on the construction of analyses directly on the source code rather than on an intermediate representation.The main result of this thesis is our language-agnostic framework, called IntraCFG. IntraCFG enables efficient and effective dataflow analysis by allowing the construction of precise and source-level control-flow graphs. The framework superimposes control-flow graphs on top of the abstract syntax tree of the program. The effectiveness of IntraCFG is demonstrated through two case studies, IntraJ and IntraTeal. These case studies showcase the potential and flexibility of IntraCFG in diverse contexts, such as bug detection and education. IntraJ supports the Java programming language, while IntraTeal is a tool designed for teaching program analysis for an educational language, Teal.IntraJ has proven to be faster than and as precise as well-known industrial tools. The combination of precision, performance, and on-demand evaluation in IntraJ leads to low latency in querying the analysis results. This makes IntraJ a suitable tool for use in interactive tools. Preliminary experiments have also been conducted to demonstrate how IntraJ can be used to support interactive bug detection and fixing.Additionally, this thesis presents JFeature, a tool for automatically extracting and summarising the features of a Java corpus, including the use of different Java features (e.g., use of Lambda Expressions) across different Java versions. JFeature provides researchers and developers with a deeper understanding of the characteristics of corpora, enabling them to identify suitable benchmarks for the evaluation of their tools and methodologies.",
+keywords = "Static program analysis, Declarative paradigms, Reference Attribute Grammars, Control flow analysis, Data flow analysis, IntraCFG framework, Bug detection, IntraJ Static Analyser, Interactive bug detection and fixing, JFeature Static Analyser",
+author = "Idriss Riouak",
+year = "2023",
+month = feb,
+day = "17",
+language = "English",
+isbn = "978-91-8039-587-8",
+publisher = "Lund University",
+file = "2023_IdrissRiouak_Lic.pdf",
+doi = "https://lucris.lub.lu.se/ws/portalfiles/portal/138416191/2023_IdrissRiouak_Lic.pdf",
+slidesonline = "https://1drv.ms/p/s!Ak1s59rIlqOyqaBhr0G62ZazZDf0_A?e=Jjhhhx"
+}
+
+@thesis{uniud,
+author = "Idriss Riouak",
+title = "Non-Well-Founded Set Based Multi-Agent Epistemic Action Language",
+publisher = "University of Udine",
+year = "2019",
+month = "July",
+abstract = "As the research in multi-agent domain continues to grow it is becoming more and more important to investigate the agents' relations in such systems: not only to reason about agents' perception of the world but also about agents' knowledge of her and others' knowledge. This type of study is referred as epistemic reasoning. Epistemic planning i.e., planning with epistemic reasoning, is essential in many multi-agent domains.
+In a variety of fields, e.g., economy, security, justice and politics, reasoning about others' beliefs could lead to winning strategies or help in changing a group of agents' view of the world.
+In this thesis we will formalize the epistemic planning problem where the state description is based on non-well-founded set theory. The introduction of a semantics based on non-well-founded sets would permit us to characterize the planning problem without using Kripke structures, as the state-of-the-art suggests, overcoming problematic aspects such as the huge memory requirements.
+Moreover, we present the language mAp where states are represented by possibilities: structures based on non-well-founded set theory. This representation will allow us to describe the language through set-based operations and also to exploit some of the results from this field, such as the concept of bisimulation, to add important features to the multi-agent epistemic community.",
+file = "NonWelFoundedSetThesis.pdf"
+}
+
+@thesis{unipr,
+author = "Idriss Riouak",
+title = "A study on the effectiveness of automatic checkers for modernizing C++",
+publisher = "University of Parma",
+year = "2016",
+month = "Dec",
+note ="Language: Italian",
+abstract = "La continua evoluzione dei linguaggi di programmazione ha reso difﬁcile mantenere i software aggiornati alle più recenti prescrizioni e convenzioni stabilite dagli standard. Come ogni processo aziendale, la modernizzazione del software 1 rappresenta un costo. Nasce così l'esigenza d'avere strumenti che automatizzino tale processo.
+Clang Tidy è uno software scritto in C++. Il suo scopo è quello di mettere a disposizione degli sviluppatori un framework ﬂessibile per diagnosticare e correggere i più comuni errori di programmazione e l'utilizzo obsoleto dei costrutti del linguaggio.",
+file = "Parma.pdf"
+}
+
+
+
+@incollection{invited_2,
+  author    = {Idriss Riouak,  Christoph Reichenbach and
+               G{\"{o}}rel Hedin and
+               Niklas Fors},
+  note      = {ROSE - Recognizing and Rewarding Open Science in SE},
+  publisher = {IEEE},
+  year      = {2021},
+  url       = {https://icsme2021.github.io/cfp/AEandROSETrack.html},
+  title     = {IntraJ - Artifact reusability},
+  youtube   = {https://www.youtube.com/watch?v=0jX7doHeUp8}
+}
+
+@incollection{invited_3,
+  author    = {Idriss Riouak},
+  note      = {PRIDE Workshop - Berlin},
+  publisher = {ECOOP},
+  year      = {2022},
+  url       = {https://2022.ecoop.org/details/pride-2022/6/Source-Level-Dataflow-Based-Fixes-Experiences-From-Using-Intraj-and-Magpiebridge},
+  title     = {Source-Level Dataflow-Based Fixes: Experiences From Using Intraj and Magpiebridge},
+  file      = {pride.pdf}
+}
+
+@incollection{invited_4,
+  author    = {Idriss Riouak},
+  note      = {2022 IEEE CISOSE - California},
+  publisher = {IEEE},
+  year      = {2022},
+  title     = {Presenting IntraJ Poster ad CISOSE, Google and Apple},
+  file      = {poster.pdf}
+}
+
+@master{master_1,
+  author    = {Johannes Aronsson, and David Björk},
+  title     = {Extending the ExtendJ Java Compiler},
+  publisher = {Lund University},
+  year      = 2023,
+  file      = {AronssonBjork.pdf},
+  abstract  = {ExtendJ is a Java compiler supporting Java versions from 4 to 8, and it is built using the JastAdd metacompiler. ExtendJ is designed to enable modular extensions. This thesis aims to examine ExtendJ's extendibility and performance by attempting to add support for Java versions 9, 10 and 11. Many features were introduced in these versions, including local type inference with the var identifier. The implemented features were then evaluated by compiling real-world projects to validate the implementation and measure compilation time as well as memory usage. Finding and compiling relevant projects proved difficult, and almost only projects using Java 8 features and earlier where compiled. The performance of ExtendJ versions 8 to 11 was compared with the corresponding OpenJDK compilers by measuring compilation time and memory consumption. The compilation time of ExtendJ was found to be within a factor of 3, while the memory consumption was within a factor of 6. We also found that ExtendJ is modularly extensible to a high degree.}
+}
+
